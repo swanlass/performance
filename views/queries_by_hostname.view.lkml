@@ -2,7 +2,7 @@ view: queries_by_hostname {
   sql_table_name: `swanproj-1.looker_performance.queries_by_hostname_2` ;;
 
   dimension: id {
-    label: "hostname"
+    label: "id"
     primary_key: yes
     sql: ${TABLE}.`ID`;;
   }
